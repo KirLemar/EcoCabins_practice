@@ -4,11 +4,17 @@
 }
 
 
-.header__logo{
-    height: 20px;
-}
+
 .header__top{
     display: flex;
     justify-content: space-between;
+    height: 95px;
+}
+.header__logo{
+    height: 20px;
+}
+.header__menu-list{
+    display: flex;
+    
 }
 
