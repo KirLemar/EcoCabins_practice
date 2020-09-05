@@ -66,13 +66,25 @@ body{
     position: relative;
 }
 .header__info{
-    position: absolute;
+    position: absolute;  
+    display: flex;
+    justify-content: center;
+    align-items: center;  
     right: 0;
     bottom: 0;
     min-width: 580px;
     min-height: 80px;
+    font-weight: 600;
+    color: #1f373d;
     background-color: #ffcc01;
 }
+
+.phone, .location{
+    
+}
+
+
+
 
 
 
