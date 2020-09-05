@@ -68,7 +68,7 @@ body{
 .header__info{
     position: absolute;  
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;  
     right: 0;
     bottom: 0;
@@ -80,7 +80,14 @@ body{
 }
 
 .phone, .location{
-    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.phone img, .location img{
+    height: 25px;
+    color: #fff;
 }
 
 
