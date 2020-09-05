@@ -23,7 +23,7 @@ h1,h2{
 body{
     position: relative;
     overflow-x: hidden;
-    color: #fff;
+    color: #1F373D;
     
 }
 
@@ -59,11 +59,24 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+
+.header__search{
+    position: absolute;
+    z-index: 2;
+}
+.header__search h1{
+    color: #1F373D;
+    font-weight: 600;
+    font-size: 62px;
+    line-height: 78px;
+}
+
 .header__img{
-    width: 960px;
-    height: 630px;
+    min-width: 960px;
+    min-height: 630px;
     background-color: #96bece;
     position: relative;
+    left: 224px;
 }
 .header__info{
     position: absolute;  
@@ -79,13 +92,17 @@ body{
     background-color: #ffcc01;
 }
 
-.phone, .location{
+.info__item{
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.phone img, .location img{
+.info__item-link{
+    margin-left: 30px;
+}
+
+.info__item-img img{
     height: 25px;
     color: #fff;
 }
