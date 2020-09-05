@@ -1,3 +1,8 @@
+a{
+    text-decoration: none;
+}
+
+
 .container  {
     max-width: 1110px;
     margin: 0 auto;
@@ -5,16 +10,37 @@
 
 
 
+.header{
+    height: 100vh;
+}
 .header__top{
     display: flex;
     justify-content: space-between;
-    height: 95px;
+    align-items: center;
+    height: 94px;
 }
-.header__logo{
-    height: 20px;
-}
-.header__menu-list{
-    display: flex;
+.menu{
     
 }
+.logo{
+    height: 20px;
+}
+.menu__list{
+    display: flex;
+    margin: 0;
+    padding: 0; 
+}
+
+.header__main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__img{
+    width: 960px;
+    height: 630px;
+    background-color: #96bece;
+}
+
+
 
