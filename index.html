@@ -16,7 +16,7 @@
     <section class="header">
         <div class="container">
             <div class="header__wrapper">
-                <a class="logo" href="#"><img src="images/logo.png" alt="logo"></a>
+                <a class="logo" href="#"><img src="images/logoblack.svg" alt="logo"></a>
                 <div class="header__wrapper">
                     <nav class="menu">
                         <ul class="menu__list">
@@ -52,18 +52,18 @@
                     </div>
                 </div>
                 <div class="header__img">
-                    <div class="header__info">
-                        <div class="info__item">
-                            <div class="info__item-img">
+                    <div class="header__item">
+                        <div class="item__info">
+                            <div class="item__info-img">
                                 <img src="images/phone.svg" alt="phone">
                             </div>
-                            <a class="info__item-link" href="tel:0001234567" >(000) 123-4567</a>
+                            <a class="item__info-link" href="tel:0001234567" >(000) 123-4567</a>
                         </div>
-                        <div class="info__item">
-                            <div class="info__item-img">
+                        <div class="item__info">
+                            <div class="item__info-img">
                             <img src="images/flags.svg" alt="location">
-                        </div>
-                        <a class="info__item-link" href="#" >Melbourne, Australia</a>
+                            </div>
+                            <a class="item__info-link" href="#" >Melbourne, Australia</a>
                         </div>
                     </div>
                 </div>
@@ -115,9 +115,9 @@
                 <div class="appartments__item">
                     <div class="item__box">
                         <img src="" alt="">
-                        <div class="appartmens__item-desc">
-                            <div class="appartments__name">Random Street, Apt B453, New York</div>
-                            <div class="appartments__info">
+                        <div class="item-desc">
+                            <div class="item__title">Random Street, Apt B453, New York</div>
+                            <div class="item__info">
                                 <div>$3,500</div>
                                 <div>2 BA</div>
                                 <div>2 BD</div>
@@ -148,7 +148,7 @@
             <div class="title">How it works?</div>
             <p>In this space market-facing, yet UI work flows , or bake it in. Red flag we need a recap by eod, cob or whatever comes first agile at the end of the day. </p>
             <div class="works__wrapper">
-                <div class="works__items">
+                <div class="works__item">
                     <div class="works__item-bignum">01</div>
                     <div class="works__item-desc">
                         .works__item-num
@@ -192,11 +192,75 @@
         <div class="container">
             <div class="title">Meet Our Agents</div>
             <p>In this space market-facing, yet UI work flows , or bake it in. Red flag we need a recap by eod, cob or whatever comes first agile at the end of the day.</p>
-            <div class="agents__wrapper">
-                <div class="agents__box"></div>
+            <div class="agents__item">
+                <div class="item__box">
+                    <img src="" alt="">
+                    <div class="item-desc">
+                        <div class="item__title">Agent</div>
+                        <div class="item__info">
+                            <div class="item__text">Mr. Luke Skywalker</div>
+                            <div class="item__icon">
+                                <a class="item__icon-link href=""></a>
+                                <a class="item__icon-link href=""></a>
+                                <a class="item__icon-link href=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="agents__box"></div>
                 <div class="agents__box"></div>
             </div>
+        </div>
+    </section>
+
+    <section class="adds">
+        <div class="container">
+            <div class="adds__item">
+                <div class="adds__img">
+                    <div class="item__info">
+                        <div class="item__info-img">
+                        <img src="images/flags.svg" alt="location">
+                        </div>
+                        <a class="item__info-link" href="#" >Melbourne, Australia</a>
+                    </div>
+                </div>
+                <div class="adds__desc">
+                    <div class="adds__title">Super Awesome Add</div>
+                    <div class="adds__text">In this space market-facing, yet UI work flows , or bake it in. Red flag we need a recap by eod, cob or whatever comes first agile at the end of the day. Not enough bandwidth closing these latest prospects is like putting socks on an octopus, yet due diligence</div>
+                </div>
+            </div>
+            <div class="adds__item">
+                <div class="adds__img">
+                    <div class="item__info">
+                        <div class="item__info-img">
+                        <img src="images/flags.svg" alt="location">
+                        </div>
+                        <a class="item__info-link" href="#" >Melbourne, Australia</a>
+                    </div>
+                </div>
+                <div class="adds__desc">
+                    <div class="adds__title">Super Awesome Add</div>
+                    <div class="adds__text">In this space market-facing, yet UI work flows , or bake it in. Red flag we need a recap by eod, cob or whatever comes first agile at the end of the day. Not enough bandwidth closing these latest prospects is like putting socks on an octopus, yet due diligence</div>
+                </div>
+            </div><div class="adds__item">
+                <div class="adds__img"></div>
+                <div class="adds__desc">
+                    <div class="adds__title">Super Awesome Add</div>
+                    <div class="adds__text">In this space market-facing, yet UI work flows , or bake it in. Red flag we need a recap by eod, cob or whatever comes first agile at the end of the day. Not enough bandwidth closing these latest prospects is like putting socks on an octopus, yet due diligence</div>
+                    <button class="adds__btn">Show Me More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="container">
+            <div class="title">luxestate<br>Explore Real Estate</div>
+            <form action="subscribe.php" class="subscribe" id="subscribe">
+                <input type="email" placeholder="Subscribe To Our New" class="email form__item" name="subscribe_email" />
+                <input type="submit" class='form_submit' value="subscribe" />
+                <div id="form_results"></div>
+            </form>
         </div>
     </section>
 
