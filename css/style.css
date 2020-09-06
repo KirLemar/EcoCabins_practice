@@ -19,21 +19,25 @@ h1,h2{
     margin: 0;
     font-size: inherit;
 }
-
 body{
     position: relative;
     overflow-x: hidden;
-    color: #1F373D;
-    font-weight: 600;
-    
 }
-
+button{
+    background-color: #ffcc01;
+    border: none;
+    cursor: pointer;
+}
+body, button{
+    color: #1F373D;
+    font-weight: 500;
+    font-size: 13px;
+}
 
 
 .container  {
     max-width: 1114px;
-    margin: 0 auto;
-    
+    margin: 0 auto; 
 }
 
 
@@ -41,7 +45,7 @@ body{
 .header{
     padding: 26px 0 70px 0;
 }
-.header__top{
+.header__wrapper{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -56,15 +60,14 @@ body{
 .menu__list-item + .menu__list-item{
     padding-left: 32px;
 }
-
+.header__account{
+    margin-left: 100px;
+}
 .header__btn{
-    background-color: #ffcc01;
-    border: none;
+    border-radius: 3px;
     min-width: 145px;
     min-height: 40px;
     margin-left: 22px;
-    cursor: pointer;
-    border-radius: 3px;
 }
 
 
@@ -82,6 +85,23 @@ body{
     font-size: 62px;
     line-height: 78px;
 }
+.search__box{
+    margin-top: 60px;
+}
+.search-text{
+    border: none;
+    border-radius: 5px;
+    width: 480px;
+    height: 70px;
+}
+.search__btn{
+    height: 70px;
+    padding: 28px 27px 28px 36px;
+    border-radius: 5px;
+    background-color: #ffcc01;
+    border: none;
+    cursor: pointer;
+}
 .header__img{
     min-width: 960px;
     min-height: 630px;
@@ -96,7 +116,7 @@ body{
     align-items: center;  
     right: 0;
     bottom: 0;
-    min-width: 580px;
+    min-width: 590px;
     min-height: 80px;
     font-weight: 600;
     color: #1f373d;
@@ -109,6 +129,7 @@ body{
 }
 .info__item-link{
     margin-left: 30px;
+    font-size: 18px;
 }
 .info__item-img img{
     height: 25px;
@@ -124,7 +145,7 @@ body{
     display: flex;
     justify-content: space-between;
 }
-.statistics__title{
+.title{
     font-weight: 600;
     font-size: 40px;
     line-height: 50px;
@@ -141,7 +162,9 @@ body{
     display: flex;
     justify-content: space-between;
     width: 430px;
+    margin-right: 10px;
 }
+
 .count__item{
     width: 200px;
     height: 200px;
