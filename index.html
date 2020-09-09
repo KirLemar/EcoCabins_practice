@@ -18,7 +18,7 @@
 			<div class="header__wrapper">
 				<a class="logo" href="#"><img src="images/logoblack.svg" alt="logo"></a>
 				<div class="header__wrapper">
-					<nav class="menu">
+					<nav class="menu" id="menu">
 						<ul class="menu__list">
 							<li class="menu__list-item">
 								<a class="menu__list-link" href="#">About</a>
@@ -47,7 +47,7 @@
 				<div class="header__search">
 					<div class="title">Find Your New<br>Modern Appartment</div>
 					<form class="search__box">
-						<input class="search-text" type="text" placeholder="Search location">
+						<input class="search__text" type="text" placeholder="Search location">
 						<button class="search__btn" type="submit">Search</button>
 					</form>
 				</div>
@@ -111,26 +111,78 @@
 	<section class="appartments">
 		<div class="container">
 			<div class="title">More Then 500+<br>Appartments For Rent</div>
-			<div class="appartments__item">
+			<a class="appartments__item" href="#">
 				<div class="item__box">
 					<img src="" alt="">
-					<div class="item__desc">
-						<div class="item__title">Random Street, Apt B453, New York</div>
-						<div class="item__info">
-							<div>$3,500</div>
-							<div>2 BA</div>
-							<div>2 BD</div>
+					<div class="item__box-desc">
+						<div class="item__box-title">Random Street, Apt B453, New York</div>
+						<div class="item__box-info">
+							<div class="item__box-text">$3,500</div>
+							<div class="item__box-icons">
+								<div class="item__box-icon"><img src="images/shower.svg" alt="">2 BA</div>
+								<div class="item__box-icon"><img src="images/bed.svg" alt="">2 BD</div>
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="item__box"></div>
-				<div class="item__box"></div>
-			</div>
-			<div class="appartments__item">
-				<div class="item__box"></div>
-				<div class="item__box"></div>
-				<div class="item__box"></div>
-			</div>
+				<div class="item__box"><img src="" alt="">
+					<div class="item__box-desc">
+						<div class="item__box-title">Random Street, Apt B453, New York</div>
+						<div class="item__box-info">
+							<div class="item__box-text">$3,500</div>
+							<div class="item__box-icons">
+								<div class="item__box-icon"><img src="images/shower.svg" alt="">2 BA</div>
+								<div class="item__box-icon"><img src="images/bed.svg" alt="">2 BD</div>
+							</div>
+						</div>
+					</div></div>
+				<div class="item__box"><img src="" alt="">
+					<div class="item__box-desc">
+						<div class="item__box-title">Random Street, Apt B453, New York</div>
+						<div class="item__box-info">
+							<div class="item__box-text">$3,500</div>
+							<div class="item__box-icons">
+								<div class="item__box-icon"><img src="images/shower.svg" alt="">2 BA</div>
+								<div class="item__box-icon"><img src="images/bed.svg" alt="">2 BD</div>
+							</div>
+						</div>
+					</div></div>
+			</a>
+			<a class="appartments__item" href="#">
+				<div class="item__box"><img src="" alt="">
+					<div class="item__box-desc">
+						<div class="item__box-title">Random Street, Apt B453, New York</div>
+						<div class="item__box-info">
+							<div class="item__box-text">$3,500</div>
+							<div class="item__box-icons">
+								<div class="item__box-icon"><img src="images/shower.svg" alt="">2 BA</div>
+								<div class="item__box-icon"><img src="images/bed.svg" alt="">2 BD</div>
+							</div>
+						</div>
+					</div></div>
+				<div class="item__box"><img src="" alt="">
+					<div class="item__box-desc">
+						<div class="item__box-title">Random Street, Apt B453, New York</div>
+						<div class="item__box-info">
+							<div class="item__box-text">$3,500</div>
+							<div class="item__box-icons">
+								<div class="item__box-icon"><img src="images/shower.svg" alt="">2 BA</div>
+								<div class="item__box-icon"><img src="images/bed.svg" alt="">2 BD</div>
+							</div>
+						</div>
+					</div></div>
+				<div class="item__box"><img src="" alt="">
+					<div class="item__box-desc">
+						<div class="item__box-title">Random Street, Apt B453, New York</div>
+						<div class="item__box-info">
+							<div class="item__box-text">$3,500</div>
+							<div class="item__box-icons">
+								<div class="item__box-icon"><img src="images/shower.svg" alt="">2 BA</div>
+								<div class="item__box-icon"><img src="images/bed.svg" alt="">2 BD</div>
+							</div>
+						</div>
+					</div></div>
+			</a>
 			<div class="appartments__search">
 				<form class="search__box">
 					<input class="search-text" type="text" placeholder="Search location">
@@ -149,13 +201,39 @@
 				<div class="works__item">
 					<div class="works__item-bignum"><img src="images/01.svg" alt=""></div>
 					<div class="works__item-desc">
-						<div class="works__item-title">Find Your Location</div>
+						<div class="works__item-title">
+							<div class="title__num">01</div>
+							<div class="title__text">Find Your Location</div>
+						</div>
 						<div class="works__item-text">In this space market-facing, yet UI work flows , or bake it in. Red flag we neef the day. </div>
 						<a class="works__item-link" href="#">Find Location</a>
+						<a class="works__item-line" href="#">______________</a>
 					</div>
 				</div>
-				<div class="works__item"></div>
-				<div class="works__item"></div>
+				<div class="works__item">
+					<div class="works__item-bignum"><img src="images/02.svg" alt=""></div>
+					<div class="works__item-desc">
+						<div class="works__item-title">
+							<div class="title__num">02</div>
+							<div class="title__text">Find Your Location</div>
+						</div>
+						<div class="works__item-text">In this space market-facing, yet UI work flows , or bake it in. Red flag we neef the day. </div>
+						<a class="works__item-link" href="#"> Find Appartment</a>
+						<a class="works__item-line" href="#">__________________</a>
+					</div>
+				</div>
+				<div class="works__item">
+					<div class="works__item-bignum"><img src="images/03.svg" alt=""></div>
+					<div class="works__item-desc">
+						<div class="works__item-title">
+							<div class="title__num">03</div>
+							<div class="title__text">Find Your Location</div>
+						</div>
+						<div class="works__item-text">In this space market-facing, yet UI work flows , or bake it in. Red flag we neef the day. </div>
+						<a class="works__item-link" href="#"> Make Contact</a>
+						<a class="works__item-line" href="#">______________</a>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -163,21 +241,21 @@
 	<section class="services">
 		<div class="container">
 			<div class="title">Services</div>
-			<div class="services__text text">In this space market-facing, yet UI work flows , or bake it in. Red flag we need a first agile at the end of the day. </div>
+			<div class="services__text text">In this space market-facing, yet UI work flows , or bake it in. Red flag we need a first agile at the end of the day.</div>
 			<div class="services__wrapper">
-				<img src="" alt="">
+				<div class="services__img"></div>
 				<div class="servuces__desc">
 					<div class="services__item">
 						<div class="services__item-title">Renting</div>
-						<div class="services__item-text">In this space market-facing, yet UI work flows , or bake it in. Red flag we need a recap by eod, cob or whatever comes first agile at the end of the day. Not enough bandwidth closing these latest prospects is like putting socks on an octopus, yet due diligence</div>
+						<div class="services__item-text text">In this space market-facing, yet UI work flows , or bake it in. Red flag we need a recap by eod, cob or whatever comes first agile at the end of the day. Not enough bandwidth closing these latest prospects is like putting socks on an octopus, yet due diligence</div>
 					</div>
 					<div class="services__item">
 						<div class="services__item-title">Selling</div>
-						<div class="services__item-text">In this space market-facing, yet UI work flows , or bake it in. Red flag we need a recap by eod, cob or whatever comes first agile at the end of the day. Not enough bandwidth closing these latest prospects is like putting socks on an octopus, yet due diligence</div>
+						<div class="services__item-text text">In this space market-facing, yet UI work flows , or bake it in. Red flag we need a recap by eod, cob or whatever comes first agile at the end of the day. Not enough bandwidth closing these latest prospects is like putting socks on an octopus, yet due diligence</div>
 					</div>
 					<div class="services__item">
 						<div class="services__item-title">Building</div>
-						<div class="services__item-text">In this space market-facing, yet UI work flows , or bake it in. Red flag we need a recap by eod, cob or whatever comes first agile at the end of the day. Not enough bandwidth closing these latest prospects is like putting socks on an octopus, yet due diligence</div>
+						<div class="services__item-text text">In this space market-facing, yet UI work flows , or bake it in. Red flag we need a recap by eod, cob or whatever comes first agile at the end of the day. Not enough bandwidth closing these latest prospects is like putting socks on an octopus, yet due diligence</div>
 					</div>
 				</div>
 			</div>
@@ -192,74 +270,149 @@
 			<div class="agents__item">
 				<div class="item__box">
 					<img src="" alt="">
-					<div class="item__desc">
-						<div class="item__title">Agent</div>
-						<div class="item__info">
-							<div class="item__text">Mr. Luke Skywalker</div>
-							<div class="item__icon">
-								<a class="item__icon-link href=""></a>
-								<a class="item__icon-link href=""></a>
-								<a class="item__icon-link href=""></a>
+					<div class="item__box-desc">
+						<div class="item__box-title">Agent</div>
+						<div class="item__box-info">
+							<div class="item__box-text">Mr. Luke Skywalker</div>
+							<div class="item__box-icons">
+								<a class="item__icon-link" href=""><img src="images/facebook.svg" alt=""></a>
+								<a class="item__icon-link" href=""><img src="images/twitter.svg" alt=""></a>
+								<a class="item__icon-link" href=""><img src="images/ball.svg" alt=""></a>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="agents__box"></div>
-				<div class="agents__box"></div>
+				<div class="item__box">
+					<img src="" alt="">
+					<div class="item__box-desc">
+						<div class="item__box-title">Agent</div>
+						<div class="item__box-info">
+							<div class="item__box-text">Mr. Luke Skywalker</div>
+							<div class="item__box-icons">
+								<a class="item__icon-link" href=""><img src="images/facebook.svg" alt=""></a>
+								<a class="item__icon-link" href=""><img src="images/twitter.svg" alt=""></a>
+								<a class="item__icon-link" href=""><img src="images/ball.svg" alt=""></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item__box">
+					<img src="" alt="">
+					<div class="item__box-desc">
+						<div class="item__box-title">Agent</div>
+						<div class="item__box-info">
+							<div class="item__box-text">Mr. Luke Skywalker</div>
+							<div class="item__box-icons">
+								<a class="item__icon-link" href=""><img src="images/facebook.svg" alt=""></a>
+								<a class="item__icon-link" href=""><img src="images/twitter.svg" alt=""></a>
+								<a class="item__icon-link" href=""><img src="images/ball.svg" alt=""></a>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
 
 	<section class="adds">
 		<div class="container">
-			<div class="adds__item">
+			<div class="adds__wrapper">
 				<div class="adds__img">
-					<div class="item__info">
-						<div class="item__info-img">
-						<img src="images/flags.svg" alt="location">
+					<div class="adds__item">
+						<div class="item__info">
+							<div class="item__info-img">
+								<img src="images/flags.svg" alt="location">
+							</div>
+							<a class="item__info-link" href="#" >Melbourne, Australia</a>
 						</div>
-						<a class="item__info-link" href="#" >Melbourne, Australia</a>
 					</div>
 				</div>
 				<div class="adds__desc">
 					<div class="adds__title">Super Awesome Add</div>
-					<div class="adds__text">In this space market-facing, yet UI work flows , or bake it in. Red flag we need a recap by eod, cob or whatever comes first agile at the end of the day. Not enough bandwidth closing these latest prospects is like putting socks on an octopus, yet due diligence</div>
+					<div class="adds__text text">In this space market-facing, yet UI work flows , or bake it in. Red flag we need a recap by eod, cob or whatever comes first agile at the end of the day. Not enough bandwidth closing these latest prospects is like putting socks on an octopus, yet due diligence</div>
 				</div>
 			</div>
-			<div class="adds__item">
+
+			
+			<div class="adds__wrapper">
+				<div class="adds__desc">
+					<div class="adds__title adds__align">Super Awesome Add</div>
+					<div class="adds__text adds__align text">In this space market-facing, yet UI work flows , or bake it in. Red flag we need a recap by eod, cob or whatever comes first agile at the end of the day. Not enough bandwidth closing these latest prospects is like putting socks on an octopus, yet due diligence</div>
+				</div>
 				<div class="adds__img">
-					<div class="item__info">
-						<div class="item__info-img">
-						<img src="images/flags.svg" alt="location">
+					<div class="adds__item adds-item-2">
+						<div class="item__info">
+							<div class="item__info-img">
+							<img src="images/flags.svg" alt="location">
+							</div>
+							<a class="item__info-link" href="#" >Melbourne, Australia</a>
 						</div>
-						<a class="item__info-link" href="#" >Melbourne, Australia</a>
 					</div>
 				</div>
-				<div class="adds__desc">
-					<div class="adds__title">Super Awesome Add</div>
-					<div class="adds__text">In this space market-facing, yet UI work flows , or bake it in. Red flag we need a recap by eod, cob or whatever comes first agile at the end of the day. Not enough bandwidth closing these latest prospects is like putting socks on an octopus, yet due diligence</div>
-				</div>
-			</div><div class="adds__item">
+			</div>
+			<div class="adds__wrapper">
 				<div class="adds__img"></div>
-				<div class="adds__desc">
-					<div class="adds__title">Super Awesome Add</div>
-					<div class="adds__text">In this space market-facing, yet UI work flows , or bake it in. Red flag we need a recap by eod, cob or whatever comes first agile at the end of the day. Not enough bandwidth closing these latest prospects is like putting socks on an octopus, yet due diligence</div>
-					<button class="adds__btn">Show Me More</button>
-				</div>
+					<div class="adds__desc">
+						<div class="adds__title">Super Awesome Add</div>
+						<div class="adds__text text">In this space market-facing, yet UI work flows , or bake it in. Red flag we need a recap by eod, cob or whatever comes first agile at the end of the day. Not enough bandwidth closing these latest prospects is like putting socks on an octopus, yet due diligence</div>
+						<button class="adds__btn">Show Me More</button>
+					</div>
 			</div>
 		</div>
 	</section>
 
 	<section class="footer">
 		<div class="container">
-			<div class="title">luxestate<br>Explore Real Estate</div>
-			<form action="subscribe.php" class="subscribe" id="subscribe">
-				<input type="email" placeholder="Subscribe To Our New" class="email form__item" name="subscribe_email" />
-				<input type="submit" class='form_submit' value="subscribe" />
-				<div id="form_results"></div>
-			</form>
+			<div class="footer__wrapper">
+				<div class="footer__title title">luxestate<br>Explore Real Estate</div>
+				<form class="footer__subscribe">
+					<input class="subscribe__form" type="text" placeholder="Subscribe To Our Newsletter">
+					<button class="subscribe__btn" type="submit"><img src="images/footer_arrow.svg" alt=""></button>
+				</form>
+			</div>
+			<div class="footer__line"></div>
+			<div class="footer__wrapper footer__wrapper-2">
+				<div class="footer__copyright ">
+					<a class="footer__logo" href="#"><img src="images/logowhite.svg" alt="logo"></a>
+					<div class="footer__rights">© 2019 - luxestate,<br>All Right Reserved</div>
+				</div>
+				<div class="footer__menu">
+					<div class="footer__menu-items">
+						<div class="footer__menu-title">LUXESTATE</div>
+						<ul class="footer__menu-list">
+							<li><a href="#">Agents</a></li>
+							<li><a href="#">Hunters</a></li>
+						</ul>
+					</div>
+					<div class="footer__menu-items">
+						<div class="footer__menu-title">COMPANY</div>
+						<ul class="footer__menu-list">
+							<li><a href="#">About</a></li>
+							<li><a href="#">FAQ</a></li>
+							<li><a href="#">Contact</a></li>
+							<li><a href="#">Social</a></li>
+						</ul>
+					</div>
+					<div class="footer__menu-items">
+						<div class="footer__menu-title">PRODUCT</div>
+						<ul class="footer__menu-list">
+							<li><a href="#">Appartments</a></li>
+							<li><a href="#">How It Works</a></li>
+						</ul>
+					</div>
+					<div class="footer__menu-items">
+						<div class="footer__menu-title">SERVICES</div>
+						<ul class="footer__menu-list">
+							<li><a href="#">Renting</a></li>
+							<li><a href="#">Selling</a></li>
+							<li><a href="#">Building</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
 		</div>
 	</section>
+
 
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
