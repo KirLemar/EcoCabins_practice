@@ -17,8 +17,11 @@
 		<div class="container">
 			<div class="header__wrapper">
 				<a class="logo" href="#"><img src="images/logoblack.svg" alt="logo"></a>
-				<div class="header__wrapper">
-					<nav class="menu" id="menu">
+				<div class="header__menu">
+					<nav class="menu">
+						<button class="menu__btn">
+							<span class="menu__btn-line"></span>
+						</button>
 						<ul class="menu__list">
 							<li class="menu__list-item">
 								<a class="menu__list-link" href="#">About</a>
@@ -85,21 +88,21 @@
 				<div class="statistics__count">
 					<div class="count__wrapper">
 						<div class="count__item">
-							<div class="count-num">748</div>
+							<div class="count-num" data-max="748">748</div>
 							<div class="count-text">Appartments</div>
 						</div>
 						<div class="count__item count__item-2">
-							<div class="count-num">24</div>
+							<div class="count-num" data-max="24">24</div>
 							<div class="count-text"> Employees</div>
 						</div>
 					</div>
 					<div class="count__wrapper">
 						<div class="count__item">
-							<div class="count-num">3854</div>
+							<div class="count-num" data-max="3854">3854</div>
 							<div class="count-text">Clients</div>
 						</div>
 						<div class="count__item count__item-2">
-							<div class="count-num">14</div>
+							<div class="count-num" data-max="14">14</div>
 							<div class="count-text"> Awards</div>
 						</div>
 					</div>
@@ -267,8 +270,22 @@
 		<div class="container">
 			<div class="title">Meet Our Agents</div>
 			<div class="agents__text text">In this space market-facing, yet UI work flows , or bake it in. Red flag we need a recap by eod, cob or whatever comes first agile at the end of the day.</div>
-			<div class="agents__item">
-				<div class="item__box">
+			<div class="agents__item agents__slider">
+				<div class="item__box slider__box">
+					<img src="" alt="">
+					<div class="item__box-desc">
+						<div class="item__box-title">Agent</div>
+						<div class="item__box-info">
+							<div class="item__box-text">Mr. Luke Skywalker</div>
+							<div class="item__box-icons">
+								<a class="item__icon-link" href=""><img src="images/facebook.svg" alt=""></a>
+								<a class="item__icon-link" href=""><img src="images/twitter.svg" alt=""></a>
+								<a class="item__icon-link" href=""><img src="images/ball.svg" alt=""></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item__box slider__box">
 					<img src="" alt="">
 					<div class="item__box-desc">
 						<div class="item__box-title">Agent</div>
@@ -415,8 +432,8 @@
 
 
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 	<script src="js/slick.min.js"></script>
-	<script src="js/main.js"></script>
+	<script src="js/script.js"></script>
 </body>
 </html>
